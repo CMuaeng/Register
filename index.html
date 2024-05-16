@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>ฟอร์มลงทะเบียน</h1>
+      <form action="submit.php" class="form" id="form">
+        <div class="form-control">
+          <label for="username">Username:</label>
+          <input type="text" name="username" id="username" />
+          <small>error message</small>
+        </div>
+        <div class="form-control">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+          <small>error message</small>
+        </div>
+        <div class="form-control">
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" />
+          <small>error message</small>
+        </div>
+        <div class="form-control">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" name="confirmPassword" id="confirmPassword" />
+          <small>error message</small>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
